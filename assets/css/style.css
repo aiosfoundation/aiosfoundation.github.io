@@ -755,7 +755,10 @@ p {
 }
 
 .single-logo img {
-  max-width: 100%;
+  width: 150px; /* Set a fixed width */
+  height: 50px; /* Set a fixed height */
+  object-fit: contain; /* Ensure logos scale proportionally */
+  /*max-width: 100%;*/
   -webkit-filter: grayscale(5);
           filter: grayscale(5);
   opacity: 0.5;
